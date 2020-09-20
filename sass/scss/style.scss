@@ -1,0 +1,158 @@
+$color-oscuro1: #000000;
+$color-oscuro2: #201a0f;
+$color-oscuro3: #3d301c;
+$color-clarito: #ffffff;
+$color-primary: #00a2ff;
+$color-primary1: #00629b;
+$color-muted: #a1b0bf; 
+
+body {
+    font-family: 'Roboto' sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: $color-primary;
+    background-color: $color-oscuro1;
+}
+
+i { color: white; }
+
+.bg-dark {
+    background-color: $color-oscuro1 !important;}
+.bg-dark-x {
+    background-color: $color-oscuro2; }
+.bg-primary {
+    background: linear-gradient(90deg, $color-primary 0%, $color-primary1 100%); }
+
+.navbar {
+    min-height: 5rem; }
+
+.text-primary {
+    background: linear-gradient(90deg, $color-primary 0%, $color-primary1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-muted {
+    color: $color-muted !important;
+}
+
+.card-text {
+    color: white !important;
+ }
+.imagecard { border-radius: 7px;
+}
+
+
+h1 ,
+h2 ,
+h3 {
+    color: white;
+}
+
+a{  color: $color-primary;
+    
+    .card:hover{transition: all .5s;
+                transform: scale(1.1);
+    }
+}
+
+a:hover { 
+    color: $color-primary;
+    text-decoration: none;
+}
+
+.btn {
+    font-weight: 700;
+    padding: .5rem 1rem;
+    border: 0;
+    border-radius: .4rem;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, $color-primary 0%, $color-primary1 100%);
+    color: $color-clarito;
+    width:100%;
+}
+
+.btn-primary:hover{
+    opacity: .8;
+    color: $color-clarito;
+}
+
+.btn-secundary {
+    background: linear-gradient(90deg, $color-primary 0%, $color-primary1 100%);
+    color: $color-clarito;
+    width:100%;
+}
+
+.btn-secundary:hover{
+    opacity: .8;
+    color: $color-clarito;
+}
+
+.shadow {
+    box-shadow: .3rem .3rem 0 rgba(0,0,0,0.5) !important;
+}
+
+.imagepasoapaso { border-radius: 1rem;}
+
+.logo{
+    height: 100px;
+}
+.logo:hover {
+    transition: .7s;
+    opacity: .5;
+}
+
+.icon-container {
+    height: 50px;
+    width: 50px;
+}
+
+.rounded-top {
+    border-top-left-radius: .5rem !important;
+    border-top-right-radius: .5rem !important;
+}
+
+.form-control {
+    background-color: $color-oscuro1;
+    height: unset;
+    padding: .5rem .8rem;
+    border: 0;
+}
+
+.form-control:focus {
+    background-color: $color-oscuro1;
+    box-shadow: none;
+}
+
+.text-area {
+    padding: .5rem .8rem;
+}
+
+.card-img-top {   /*------------ modificaciones en la imagen del card -------------------*/
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.letrafooter {
+    color: white;
+}
+.fondofooter {
+    background-color: $color-oscuro2;
+}
+
+p {
+    align-items: center;
+    text-align: center;
+}
+
+video {
+    border-radius: 5px;
+    border: none;
+    width: 90%;
+}
+
+
+@import 'mediaquerys';

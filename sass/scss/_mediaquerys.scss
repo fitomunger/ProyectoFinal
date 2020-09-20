@@ -1,0 +1,53 @@
+@media (max-width: 575.98px) {
+    .w-75 {
+        width: 90% !important;
+    }
+    video {
+        width: 90%;
+    }
+
+    p {
+        width: 90%;
+    }
+
+    .py-5 {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .btn {
+        width: 100%;
+    }
+    .list-inline-item {
+        display: block;
+        text-align: center;
+    }
+    footer {
+        text-align: center;
+            
+        .list-inline-item {
+                display: inline-block;
+        }
+            .text-right {
+                text-align: center !important;
+        }
+            small {
+                display: block;
+        }
+        
+        .container p {
+            width: 90%;
+            text-align: center !important;          
+        }
+    }
+
+    .card-body p{
+        display: block;
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 991.98px) {
+    video {
+        width: 90%;
+    }
+}
